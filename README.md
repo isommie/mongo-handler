@@ -1,7 +1,6 @@
 
 
 # MongoDB Handler Project
-==========================
 
 ## Overview
 
