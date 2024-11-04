@@ -1,3 +1,5 @@
+
+
 # MongoDB Handler Project
 ==========================
 
@@ -62,6 +64,24 @@ The query language used in this project is a JSON-based language that allows for
         }
     }
     ```
+
+## Environment Variables
+
+To run the project, you need to set the following environment variable:
+
+- `MONGO_URL`: The URL of your MongoDB instance. For example: `mongodb://localhost:27017/`
+
+You can set the environment variable in your terminal or command prompt:
+
+```bash
+export MONGO_URL=mongodb://localhost:27017/
+```
+
+Alternatively, you can include the environment variable in a `.env` file in the root of your project:
+
+```makefile
+MONGO_URL=mongodb://localhost:27017/
+```
 
 ## Running the Project
 
