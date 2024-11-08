@@ -4,7 +4,7 @@ import signal
 import sys
 from flask import Flask, request, jsonify
 from pymongo import MongoClient, errors
-from token_auth import validate_token
+# from token_auth import validate_token
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 import threading
